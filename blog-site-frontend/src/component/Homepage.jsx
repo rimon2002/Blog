@@ -5,7 +5,7 @@ function HomePage() {
   return (
     <Box
       sx={{
-        backgroundImage: "url(/src/assets/humanity.png)", // Path to the image in the public/assets folder
+        backgroundImage: "url(/public/humanity.png)", // Path to the image in the public/assets folder
         backgroundSize: "cover", // Ensure the background image covers the whole page
         backgroundPosition: "center", // Center the image
         height: "100vh", // Full height of the viewport
