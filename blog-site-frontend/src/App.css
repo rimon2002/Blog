@@ -1,0 +1,53 @@
+/* src/App.css */
+body {
+  background: linear-gradient(
+    to bottom,
+    #020024,
+    #090979,
+    #00d4ff
+  ); /* Space gradient background */
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Navbar {
+  background: linear-gradient(90deg, #00d4ff, #090979); /* Cosmic gradient */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.Footer {
+  background: #020024;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.Button {
+  background: #090979;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.Button:hover {
+  background: #00d4ff;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #ffffff;
+}
